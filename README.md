@@ -164,6 +164,7 @@ public Form1()
 * 添加应用程序清单 `app.manifest`, 打开感知 DPI
 * `TargetFrameworks` 改为双目标框架 `<TargetFrameworks>net6.0-windows;net461;</TargetFrameworks>`
 * `Program.cs`注释掉 `ApplicationConfiguration.Initialize();`
+* `AutoScaleMode = AutoScaleMode.Dpi;` //添加这句,要在'InitializeComponent();'上方
 
 ## 老工程也可以通过编辑projet文件升级到这种新工程格式,支持本文说的功能, 需要继续出教程的请在评论区留言, 这几天都在度假中, 今天就写到这里了. 下回见!
 
